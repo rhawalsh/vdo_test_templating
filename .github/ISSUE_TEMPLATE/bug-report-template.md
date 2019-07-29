@@ -26,13 +26,15 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Storage Stack Configuration**
-[e.g. SSD -> MD RAID 5 -> VDO -> XFS]
+High Level Configuration: [e.g. SSD -> MD RAID 5 -> VDO -> XFS]
+Output of `lsblk -o name,maj:min,kname,type,fstype,state,sched,uuid`:
+Output of `blockdev --report`: 
 
 **Hardware Information:**
  - CPU: [e.g. 2x Intel Xeon E5-1650 v2 @ 3.5GHz]
  - Memory: [e.g. 128G]
  - Storage: [e.g. Intel Optane SSD 900P]
- - Other: 
+ - Other: [e.g. iSCSI backed storage]
 
 **Distro Information:**
  - OS: [e.g. RHEL-7.5]
