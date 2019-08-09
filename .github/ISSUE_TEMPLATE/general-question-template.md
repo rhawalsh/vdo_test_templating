@@ -7,11 +7,11 @@ assignees: rhawalsh
 
 ---
 
-**Question**
+**Question:**
 Enter your question in this area.
 
-**Documentation**
+**Documentation:**
 Any links to documentation that can be referenced in the question
 
-**Additional Context**
+**Additional Context:**
 Any additional details that might help understand your question.
