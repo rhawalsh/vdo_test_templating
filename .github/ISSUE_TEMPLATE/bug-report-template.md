@@ -7,25 +7,25 @@ assignees: rhawalsh
 
 ---
 
-**Describe the bug**
+**Describe the bug:**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**To Reproduce:**
 Steps to reproduce the behavior:
 1. 
 2. 
 3. 
 
-**VDO Configuration**
+**VDO Configuration:**
  - VDO Create Command Used: [e.g. `vdo create --name vdo0 --device /dev/sda --vdoLogicalSize 10T --indexMem 1`]
  - Contents of /etc/vdoconf.yml
  - Output of vdodumpconfig: [e.g. `vdodumpconfig /dev/sda`]
  - Output of `vdo status`:
 
-**Expected behavior**
+**Expected behavior:**
 A clear and concise description of what you expected to happen.
 
-**Storage Stack Configuration**
+**Storage Stack Configuration:**
 High Level Configuration: [e.g. SSD -> MD RAID 5 -> VDO -> XFS]
 Output of `lsblk -o name,maj:min,kname,type,fstype,state,sched,uuid`:
 Output of `blockdev --report`: 
@@ -45,5 +45,5 @@ Output of `blockdev --report`:
  - LVM Version: [e.g. 2.02.177-4.el7]
  - Output of `uname -a`: [e.g. Linux localhost.localdomain 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018 x86_64 x86_64 x86_64 GNU/Linux]
 
-**Additional context**
+**Additional context:**
 Add any other context about the problem here.
