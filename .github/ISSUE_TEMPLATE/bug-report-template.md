@@ -27,8 +27,9 @@ A clear and concise description of what you expected to happen.
 
 **Storage Stack Configuration:**
 High Level Configuration: [e.g. SSD -> MD RAID 5 -> VDO -> XFS]
-Output of `lsblk -o name,maj:min,kname,type,fstype,state,sched,uuid`:
 Output of `blockdev --report`: 
+Output of `dmsetup ls --tree`:
+Output of `lsblk -o name,maj:min,kname,type,fstype,state,sched,uuid`:
 
 **Hardware Information:**
  - CPU: [e.g. 2x Intel Xeon E5-1650 v2 @ 3.5GHz]
